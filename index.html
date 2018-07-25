@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+
+    <head>
+            <title>Awestruck Photography</title>
+            <meta charset="utf-8">
+            <meta name = "viewport" content="width = device-width, initial-scale = 1">
+            <link rel="stylesheet" href="css/lightbox.min.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">   
+            <link href="https://fonts.googleapis.com/css?family=Oxygen|Ubuntu" rel="stylesheet">
+            <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href = "css/style.css" rel = "stylesheet" type = "text/css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-top navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                                 <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                    <a class="navbar-brand" href="#header"><img src="img/awestruck-logo.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-nav-custom navbar-right font-oxygen">
+                        <li class = "home"><a href="#header">Home</a></li>
+                        <li><a href="#about-container">About Us</a></li>
+                        <li><a href="#about">Services</a></li>
+                        <li><a href="#portfolio-begin">Portfolio</a></li>
+                        <li><a href="#team-begin">The Team</a></li>
+                        <li><a href="#contact">Enquire</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right navbar-nav-custom">
+                        <li><a href="https://api.whatsapp.com/send?phone=919597959648" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="tel:9597959648" target="_blank"><i class="fa fa-phone-square"></i></a></li>
+                        <li><a href="http://instagram.com/awestruckstudios" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://facebook.com/AweStruckcrew/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            
+            </div>
+        </nav> 
+        <nav class="mobile-nav">
+            <section class="toggle-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </section>
+            <ul class = "mobilenav font-oxygen">
+                    <li><a href="#header" onclick = "navclose()">Home</a></li>
+                    <li><a href="#about-container" onclick = "navclose()">About Us</a></li>
+                    <li><a href="#about" onclick = "navclose()">Services</a></li>
+                    <li><a href="#portfolio-begin" onclick = "navclose()">Portfolio</a></li>
+                    <li><a href="#team-begin" onclick = "navclose()">The Team</a></li>
+                    <li><a href="#contact" onclick = "navclose()">Enquire</a></li>
+            </ul>
+        </nav> 
+        <section id="social-top" class = "hidden-lg hidden-md">
+            <section class="social">
+                <a href="https://api.whatsapp.com/send?phone=919597959648" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                <a href="tel:9597959648" target="_blank"><i class="fa fa-phone-square"></i></a>
+                <a href="http://instagram.com/awestruckstudios" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://facebook.com/AweStruckcrew/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </section>
+        </section>
+
+        <header id="header" class = "background-image vertical-align white-font font-oxygen">
+            <section class="text-center hidden-lg hidden-md hidden-sm">
+                <img src="img/awestruck-logo.png" alt="" width="60px" height= "60px">
+            </section>
+            <h1 class="header-text">Awestruck Studios</h1>
+            <h1 class = "header-caption">The way you visualize, that's how we picturize</h1>
+        </header>
+
+        <section id = "about-container">
+            <section class="container-fluid about-us-container background-image">
+                <section class="col-lg-6 col-sm-12 col-md-6 col-xs-12 about-us vertical-align">
+                    <section id="about-us" class="  background-image white-font ">
+                        <h1 class="text-center font-oxygen">
+                            About Us
+                        </h1>
+                        <p class="font-ubuntu">
+                                For a while now, we have always enjoyed photography. So why enjoy it selfishly? We decided to extend 
+                                our skills to include families and couples into our hobbies. Since then, we have covered masala-filled
+                                marriages, events with evergreen happy families and have been a part of blessings showered in baby
+                                showers. We know the stage so let us set the scene. When you have children and grands, you will know 
+                                what we did mean. Just passing what we learnt from our families. Love, Understanding and Good Photography! 
+                        </p>
+                        <p><a href="#contact" class = "font-oxygen btn">Click to Enquire </a></p>
+                        <!-- <p>Contact Number : <a href="tel:9597959648">+91-9597959648</a>  </p>   -->
+                    </section>
+                </section>
+                <section id = "slider" class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                    <section id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <section class="carousel-inner">
+                            <section class="item active">
+                                <img src="img/carousel/cake-photo.jpg" alt="Cake Photo" class="img-responsive">
+                            </section>
+
+                            <section class="item">
+                                <img src="img/carousel/couple-photo.jpg" alt="Couple Photo">
+                            </section>
+
+                            <section class="item">
+                                <img src="img/carousel/group-photo.jpg" alt="Group Photo">
+                            </section>
+                        </section>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                  <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                  <span class="sr-only">Next</span>
+                        </a>
+                    </section>
+                </section>
+
+            </section>
+
+        </section>
+
+        <section id = "about" class = "white-font">
+                <section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 vertical-align about-container about-marraige background-image">
+                    <h2 class="font-oxygen">WEDDING PHOTOGRAPHY | <span class="hidden-xs">CANDID AND TRADITIONAL </span></h2>
+                    <p class="font-ubuntu">
+                            The best part about life is sharing it with someone else. While singles crave for the cheesiness and “married too long” 
+                            crave for an atmosphere of space to breathe, everyone loves some photography. Catch the best candid moments
+                            (and gawking husbands) by ringing up to our photography services. 
+                    </p>
+                </section>
+                <section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 vertical-align about-container about-events background-image">
+                    <h2 class="font-oxygen">EVENT COVERAGE<span class="hidden-xs"> | PHOTOGRAPHY AND VIDEO</span></h2>
+                    <p class="font-ubuntu">
+                            We lend our photography skills to events namely, baby showers, house warmings etc. Our photos are highly 
+                            appealing, standing proof of a happy family reunion. Enjoy our photography services by posing for them
+                             and admiring them later.
+                    </p>
+                </section>
+                <section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 vertical-align about-container about-outdoor background-image">
+                    <h2 class="font-oxygen">OUTDOOR PHOTOSHOOT</h2>
+                    <p class="font-ubuntu">
+                            Amid all hectic marriage plans, you definitely need some room to breathe. Relax and relieve yourself with your 
+                            better half as we capture those beach walks, candid conversations, silhouettes that hide the shy poses.
+                    </p>
+                </section>
+        </section>
+        <section id="portfolio">
+
+                <a href="img/1.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/1.jpg" alt="" class = "landscape" id= "portfolio-begin">
+                </a>
+                <a href="img/2.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/2.jpg" alt="" class = "landscape">
+                </a>
+                <a href="img/3.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/3.jpg" alt="" class = "landscape">
+                </a>
+                <a href="img/4.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/4.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/5.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/5.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/6.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/6.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/7.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/7.jpg" alt="" class = "landscape">
+                </a>            
+                <!-- <a href="img/8.jpg" data-lightbox="roadtrip" >
+                    <img src="img/8.jpg" alt="" class = "portrait">
+                </a>       -->
+                <a href="img/9.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/9.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/10.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/10.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/11.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/11.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/12.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/12.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/13.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/13.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/14.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/14.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/15.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/15.jpg" alt="" class = "portrait">
+                </a> 
+                <a href="img/15a.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/15a.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/16.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/16.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/17.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/17.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/18.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/18.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/19.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/19.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/20.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/20.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/21.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/21.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/22.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/22.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/23.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/23.jpg" alt="" class = "portrait">
+                </a>  
+                <a href="img/24.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/24.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/25.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/25.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/26.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/26.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/27.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/27.jpg" alt="" class = "landscape">
+                </a>  
+                <a href="img/28.jpg" data-lightbox="roadtrip" >
+                    <img src="img/optimize/28.jpg" alt="" class = "landscape">
+                </a>  
+        </section>
+
+        <section id="team" class = "white-font">
+            <section class="container"></section>
+            <h1 class="text-center font-oxygen" id = "team-begin">Our Team</h1>
+            <section class="container">
+                <section class="col-lg-6 col-md-6 col-sm-6 aro member text-center">
+                    <img src="img/photographer-aro.jpg" alt="" class="team-photo">
+                    <h3 class="font-ubuntu">Aro Leo</h3>
+                    <section class="social text-center">
+                        <a href="http://instagram.com/awestruck_aro" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://facebook.com/jack.aro.75" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </section>
+                </section>
+                <section class="col-lg-6 col-md-6 col-sm-6 aro member text-center">
+                    <img src="img/photographer-mugundhan.jpg" alt="" class="team-photo">
+                    <h3 class="font-ubuntu">Mugundhan</h3>
+                    <section class="social text-center">
+                        <a href="http://instagram.com/mugundh6" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://facebook.com/profile.php?id=100001650331192" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section id="contact" class = "">
+            <!-- <section class="background-fixer"></section> -->
+            <section class="container-fluid">
+                <section class="row text-center">
+                    <h1 class="heading white-font" id = "contact-begin">Enquire</h1>
+                </section>
+                <section class="row">
+                        <section class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></section>
+
+                        <section class="col-md-6 col-lg-6 col-sm-6 col-xs-12 vertical-align">
+                            <section class="social text-center">
+                                <a href="tel:9597959648" target="_blank" style="font-size:16px" class="font-ubuntu">Call Us :+91-9597959648</a>
+                                <br/>
+                                <!-- <a href="https://api.whatsapp.com/send?phone=919597959648" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                                <a href="tel:9597959648" target="_blank"><i class="fa fa-phone-square"></i></a>
+                                <a href="http://instagram.com/awestruckstudios" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://facebook.com/AweStruckcrew/" target="_blank"><i class="fa fa-facebook"></i></a> -->
+                            </section>
+                            <form action="https://formspree.io/awestruckscrew@gmail.com" method="post">
+                                <input name="firstname" type="text" class="form-control" id="firstname" placeholder="First Name" required="">
+                                <input name="lastname" type="text" class="form-control" id="lastname" placeholder="Last Name" required="">
+                                <input name="phone" type="telephone" class="form-control" id="phone" placeholder="Mobile Number" required="">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email Address" required="">
+                                <input name="date" type="date" class="form-control" id="date" placeholder="Date" required="">
+                                <input name="eventname" type="text" class="form-control" id="eventname" placeholder="Event Name" required="">
+                                <input name="address" type="text" class="form-control" id="address" placeholder="Address/Venue" required=""><br><br><br>
+                                <section class="button cen">
+                                    <center>
+                                        <input name="submit" type="submit" class="form-control" id="submit" value="BOOK NOW"></center>
+                                </section>
+                            </form>
+                        </section>
+                        <section class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></section>                        
+                </section>
+            </section>
+        </section>
+        
+        <section class="footer">
+            <section class="container vertical-align"> 
+                <!-- <section class="col-lg-3 colmd-3 col-sm-3 col-xs-3"> -->
+                    <p class = "text-center" >Developed With Love And Code By  <a href="https://praveenbenedict.github.io/" target="_blank">Praveen Benedict - Phoenicorn Labs</a></p>
+                <!-- </section> -->
+            </section>
+            
+        </section>
+
+
+
+        <!-- Jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!-- Scroll To Plugin -->
+        <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+        <!-- Localscroll Plugin   -->
+        <script src="//cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
+        <!-- Lightbox Plugin -->
+        <script src = "script/lightbox.min.js"></script>
+        <!-- Bootstrap Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+        crossorigin="anonymous"></script>
+        <!-- Custom Javacript -->
+        <script src = "script/script.js"></script>  
+    </body>
+
+
+
+</html>

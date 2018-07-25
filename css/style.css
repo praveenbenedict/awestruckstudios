@@ -1,0 +1,420 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.team-photo,
+#team,
+#about-container
+.container-fluid{
+    z-index:-999;
+}
+
+.background-image{
+    background-repeat : no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content : center;
+    text-align : center;
+}
+.white-font{
+    color: white;
+} 
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;    
+}
+.font-oxygen{
+    font-family: 'Oxygen', sans-serif;    
+}
+
+p{
+    font-size: 16px;
+}
+img{
+    z-index:-999;
+}
+
+/* nav{
+    position: fixed;
+    top:0px;
+    left:0px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* height: 45px;
+}
+nav section {
+    display: block;
+}
+nav .toggle-menu span{
+    display: block;
+    width: 30px;
+    height: 7px;
+    background-color: white;
+    margin: 5px 00px;;
+}
+nav .logo img{
+    height: 45px;
+    width:45px;
+} */
+
+.navbar li a{
+    color:white!important;
+}
+.navbar .home a{
+    background: transparent!important;
+}
+.navbar .active a{
+    background: transparent;
+    font-weight: bolder;
+}
+.navbar-custom{
+    height: 70px;
+    background: transparent;
+    border: none;
+    /* transition: 1s ease-in; */
+}
+.navbar-brand img{
+    height: 70px;
+}
+.navbar-nav-custom{
+    padding-top: 20px;
+}
+.navbar-fade{
+    height: 50px;
+    background: black;
+    border:none;
+}
+.brand-shrink img{
+    height:30px;
+}
+
+#social-top{
+    display: block;
+    position: fixed;
+    margin:0px;
+    /* padding:0px; */
+    top:4px;
+    float: right;
+    right:0px;
+    background: transparent;
+    font-size: 25px;
+    color:white;
+    padding: 3px;
+    margin: 4px;
+    margin-right: 5px;
+    margin-top:15px;
+    z-index: 9999;
+}
+#social-top .fa{
+    margin: 4px;
+    /* z-index: 999; */
+    color:white;
+}
+
+
+/* Header */
+header{
+    top:0px;
+    left: 0px;
+    height: 100vh;
+    width:100%;
+    background-image : url(../img/christian-wedding.jpg);
+    background-attachment: fixed;
+    /* background-color: #e53935;  
+    background-color: -webkit-linear-gradient(to right, #e35d5b, #e53935);  
+    background-color: linear-gradient(to right, #e35d5b, #e53935); */
+    
+}
+header .header-text{
+    font-size: 5vw;
+}
+
+#about-container{
+
+    z-index: -9999;
+}
+.about-us{
+    height: 60vh;
+    background-image: url(../img/photography.jpg);
+    background-color: black;
+}
+.about-us a{
+    font-size : 110%;
+    color : white;
+    padding : 10px 20px 10px 20px;
+    border: solid white;
+    text-transform: uppercase;
+    transition : 1s;
+    
+}
+.about-us a:hover{
+    color : gray;
+    border: solid gray;
+}
+.about-us-container{
+    padding:0px;
+}
+#slider{
+    padding:0px;
+    height: 60vh;
+}
+#slider img{
+    height: 60vh;
+}
+.carousel-inner img{
+    width: 100%;
+}
+
+
+/* ABOUT */
+.about-container{
+    height: 60vh;
+    text-align: left;
+    padding: 20px;
+}
+.about-outdoor{
+    background-image: url(../img/outdoor-silhouette.jpg);
+}
+.about-marraige{
+    background-image: url(../img/marraige.jpg)
+}
+.about-events{
+    background-image: url(../img/events.jpg)
+}
+
+
+
+/* PORTFOLIO */
+#portfolio{
+    background-color: #090d13;
+    z-index: -99999;
+}
+.landscape,
+.portrait{
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+.landscape{
+    width: 25%;
+    height: 35vh;
+}
+.portrait{
+    width: 12.50055%;
+    height: 35vh;
+}
+
+/* THE TEAM */
+#team{
+    z-index: -999;
+    padding-top: 30px;
+    padding-bottom:30px;
+    /* background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); */
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+    
+    background-size: cover;
+}
+.team-photo{
+    height: 70vh;
+    width: 60%;
+    margin-top: 35px;
+}
+#team .fa{
+    font-size:25px;
+    color:white;
+    margin: 10px;
+}
+
+
+/* BOOK */
+#contact{
+    /* background-color: #525252;  
+    background-color: -webkit-linear-gradient(to right, #3d72b4, #525252);  
+    background-color: linear-gradient(to right, #3d72b4, #525252);     */
+    background-image: url(../img/book-bg.jpg); 
+    background-size:cover;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+#contact .heading{
+    margin-bottom: 20px;
+}
+#contact .background-fixer{
+    position: relative;
+    width:100%;
+    height:100%;
+    z-index:-999;
+}
+#contact .social{
+    margin-bottom: 10px;
+}
+#contact .fa{
+    color:white;
+    font-size:25px;
+    margin: 5px;
+}
+#contact a{
+    color:white;
+    text-decoration: underline;
+}
+
+
+input[type="text"],
+input[type="telephone"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid white;
+    background: transparent;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+input[type="submit"]{
+    border-radius: 0px;
+    border: 1px solid white;
+    background: transparent;
+    width: 60%;
+    color: white;
+}
+
+.footer{
+    color:white;
+    background-color: black;
+}
+
+/* FOR MOBILE DEVICES  */
+@media only screen and (max-width: 767px){
+    .navbar{
+        display: none;
+        z-index: 999;
+    }
+    .about-us{
+        height:95vh;
+    }
+    .mobile-nav{
+        margin:0px;
+        padding: 0px;
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        background-color: #151719;
+        left: -250px;
+        transition: all 500ms linear;
+        z-index: 99999;
+    }
+    .toggle{
+        left:0px;
+    }
+    .mobile-nav ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .mobile-nav ul li{
+        list-style: none;
+        font-size: 25px;
+        color: white;
+        padding: 15px 10px;
+        border-bottom:1px solid rgba(100,100,100, 0.3);
+    }
+    .mobile-nav ul li a{
+        text-decoration: none;
+        color:white;
+    }
+    .mobile-nav .toggle-menu{
+        position : absolute;
+        left: 280px;
+        top: 20px;
+    }
+    
+    .mobile-nav .toggle-menu span{
+        display: block;
+        width: 30px;
+        height: 7px;
+        background-color: white;
+        margin: 5px 00px;;
+    }
+    header .header-text{
+        font-size:10vw;/*Replace with responsive typography*/
+    }
+    header .header-caption{
+        font-size: 5vw;
+    }
+    .about-us{
+        height: 90vh;
+    }
+    
+    .portrait{
+        width: 100%;
+        height: 90vh;
+    }
+    .landscape{
+        width:100%;
+        height: 50vh;
+    }
+    .team-photo{
+        width:85%;
+        height: 70vh;
+    }
+    input[type="text"],
+    input[type="telephone"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"]{
+        width: 100%;
+    }
+}
+.footer p{
+    padding: 7px;
+}
+@media only screen and (min-width:768px) and (max-width: 992px){
+    .portrait{
+        width: 100%;
+        height: 90vh;
+    }
+    .landscape{
+        width:100%;
+        height: 50vh;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    #social-top{
+        display:none;
+        visibility: hidden;
+    }
+    .team-photo{
+        width:95%;
+    }
+    #about h2{
+        font-size: 36px;
+
+    }
+    #about p{
+        font-size: 20px;
+    }
+    #about-us h1{
+        font-size: 40px;
+    }
+    #about-us p{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .mobile-nav{
+        display: none;
+    }
+}
+
+
